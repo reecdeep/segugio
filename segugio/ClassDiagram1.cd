@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="segugio.ConfigExtraction" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQDAAAAIAAAAAAAAAAgAAAAAABAEAEIAAEQAAAEAAAA=</HashCode>
+      <FileName>ConfigExtraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.FormContextMenu" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormContextMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.Gateway" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEhAAAAQAQIgAAIAgAIAgIAQACAAAAoIAAAQAgAAAA=</HashCode>
+      <FileName>Gateway.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.MainForm" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAQEiAAACAAABQAQAKAQgACUBwAQAAACLGgICAIAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.ProcessInfo" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAABEAACAAAAABQAIAAAAIQAAAAAAAAEAAAAABAAAA=</HashCode>
+      <FileName>ProcessInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.ProcessInfoTracked" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EDgAAEAAgQAAUAkBUIAAQGIAgDEAIggAIyAAEAAAAAA=</HashCode>
+      <FileName>ProcessInfoTracked.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.ProcessLaunch" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAABAEYAEQACBAECwIkBAAAAwAggAiAAByEAg=</HashCode>
+      <FileName>ProcessLaunch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.ProcessListManager" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAEAAAgAAAEAAAggAQAEAABAgAEMEBABQAAAAAIA=</HashCode>
+      <FileName>ProcessListManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.ProcessMonitor" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAACAAAAABAAAAAACIAABAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ProcessMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.ProcessScan" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAFAAAAAAAAAhQAAAAAGhgABAEADAGigIAAAAEAAA=</HashCode>
+      <FileName>ProcessScan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.Program" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.SettingsManager" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAIAgAAAAAAAAABCAAEAAAAAEAAAAAAA=</HashCode>
+      <FileName>SettingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.ProcessTreeNode" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IogAAEAEAAAAAAAAQgAAAAAAAAAAIAAAAAAAAACgAAA=</HashCode>
+      <FileName>ProcessTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.ProcessTreeView" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAggABAACEAAAAAAAAAAAEAAAAAAAIAAACAAAAAAQA=</HashCode>
+      <FileName>ProcessTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.UpdateSignal" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>UpdateSignal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.Utils" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.Yara" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEgAAAAAQAAAAAAIAAAABAAAAAIAA=</HashCode>
+      <FileName>Yara.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.YaraRules" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAIAAAAAAJQgAAAAAAAAABAQAEAEIAAAAAAAAAA=</HashCode>
+      <FileName>YaraRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dnYara.Interop.Constants" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACCCgBRAAACQAgaCAAAAAAAAAAARAQAAANBAgAA=</HashCode>
+      <FileName>libyara\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dnYara.Interop.Methods" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAVACCArYAACAC1AIAAQAAAjBMEgAwIUIEApAEQA=</HashCode>
+      <FileName>libyara\Methods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dnYara.Interop.ObjRefHelper" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYIAIEAEAAQAgAQAAAAkAACwBEREAAIAAAAIAAAAAA=</HashCode>
+      <FileName>libyara\ObjRefHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.GCHandleHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="libYaraWrapper.libyara.CompilationException" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.YaraException" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.YaraContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="libYaraWrapper.libyara.DictionaryExtensions" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.ScanHelper" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.Match" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAwAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.ProfilingInfo" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAQ=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.Rule" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAIBAAAAAAAAAAAAEAAAAAAQAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.ExternalVariables" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAgAABAAAAAAAgAAAAgQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.ErrorUtility" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.CompiledRules" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAIAAACAAAAAAAAAAAAARAAAAAAAAAAAABBAAAgA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="libYaraWrapper.libyara.Compiler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIASAAAACAAAAQAAAAYAAAAAACAgQIAAAAAEE=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="libYaraWrapper.libyara.CustomScanner" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAADAEAAAAAAAgAAAAAAAAAAAAAAACCCAABBABAI=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.Scanner" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAABAAAAAAAAAgAAAAAAAAAEEAAAAACCAAAAABAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libYaraWrapper.libyara.ScanResult" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAwAAQAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>libyara\YaraWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.Properties.Resources" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAEAAgAABEAAAAQAAAABAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="segugio.Properties.Settings" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="dnYara.Interop.FILE" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\FILE.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.RE_AST" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAEAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>libyara\Types\RE_AST.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.RE_CLASS" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\RE_CLASS.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.RE_NODE" Collapsed="true">
+    <Position X="13.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAABJAAAAAAAAAQAAgwA=</HashCode>
+      <FileName>libyara\Types\RE_NODE.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.RE_NODE_UNION1" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgBAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\RE_NODE_UNION1.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.RE_NODE_UNION2" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>libyara\Types\RE_NODE_UNION2.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.SETJMP_FLOAT128" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\SETJMP_FLOAT128.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_AC_MATCH" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAA=</HashCode>
+      <FileName>libyara\Types\YR_AC_MATCH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_AC_MATCH_TABLE_ENTRY" Collapsed="true">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_AC_MATCH_TABLE_ENTRY.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_ARENA" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>libyara\Types\YR_ARENA.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_ARENA_PAGE" Collapsed="true">
+    <Position X="4.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAIAAAAgAIAAAAACABAQAIAAAA=</HashCode>
+      <FileName>libyara\Types\YR_ARENA_PAGE.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_ATOM_QUALITY_TABLE_ENTRY" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_ATOM_QUALITY_TABLE_ENTRY.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_ATOMS_CONFIG" Collapsed="true">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAQAAIBAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_ATOMS_CONFIG.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_COMPILER" Collapsed="true">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQjCBEKIiBCAFSoAACEgAIAwNKAEBSAgAQAQAAAAAAw=</HashCode>
+      <FileName>libyara\Types\YR_COMPILER.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_MATCH" Collapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAQEAAAAAAAAAAAAAAEAAEEAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>libyara\Types\YR_MATCH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_MATCHES" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>libyara\Types\YR_MATCHES.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_META" Collapsed="true">
+    <Position X="3" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIBAABAAAIAAAAAAAQ=</HashCode>
+      <FileName>libyara\Types\YR_META.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_PROFILING_INFO" Collapsed="true">
+    <Position X="4.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAACAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_PROFILING_INFO.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_RELOC" Collapsed="true">
+    <Position X="6.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>libyara\Types\YR_RELOC.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_RULE" Collapsed="true">
+    <Position X="8.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAIAAABAgABAAAAAAAQ=</HashCode>
+      <FileName>libyara\Types\YR_RULE.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_RULES" Collapsed="true">
+    <Position X="10" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACAAEAAAAAAAAAAAAQAECAAACgAIACAAEAAA=</HashCode>
+      <FileName>libyara\Types\YR_RULES.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.RE_FIBER_LIST" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>libyara\Types\YR_SCAN_CONTEXT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.RE_FIBER_POOL" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_SCAN_CONTEXT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_SCAN_CONTEXT_WIN" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAIQIAAgAAAAAQAAAAAQIAYABBEAAIAAgAAEACQ=</HashCode>
+      <FileName>libyara\Types\YR_SCAN_CONTEXT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_SCAN_CONTEXT_OSX" Collapsed="true">
+    <Position X="13.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAIQIAAgAAAAAQAAAAAQIAYABBEAAIAAgAAEACQ=</HashCode>
+      <FileName>libyara\Types\YR_SCAN_CONTEXT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_SCAN_CONTEXT_LINUX" Collapsed="true">
+    <Position X="11.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAIQIAAgAAAAAQAAAAAQIAYABBEAAIAAgAAEACQ=</HashCode>
+      <FileName>libyara\Types\YR_SCAN_CONTEXT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_STOPWATCH_WIN" Collapsed="true">
+    <Position X="8.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_STOPWATCH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.mach_timebase_info" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_STOPWATCH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_STOPWATCH_OSX" Collapsed="true">
+    <Position X="6.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_STOPWATCH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.timeval" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>libyara\Types\YR_STOPWATCH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.timespec" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_STOPWATCH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_STOPWATCH_LINUX" Collapsed="true">
+    <Position X="4.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\YR_STOPWATCH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dnYara.Interop.YR_STRING" Collapsed="true">
+    <Position X="10" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAECAAAAAAAAAABBQQIAAAAAAAwQ=</HashCode>
+      <FileName>libyara\Types\YR_STRING.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="dnYara.Interop.YR_CALLBACK_MESSAGE" Collapsed="true">
+    <Position X="6.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAACAAAAAAAABAAACAAAAAAQ=</HashCode>
+      <FileName>libyara\Enums\YR_CALLBACK_MESSAGE.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="dnYara.Interop.YR_CALLBACK_RESULT" Collapsed="true">
+    <Position X="8.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Enums\YR_CALLBACK_RESULT.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="dnYara.Interop.YR_SCAN_FLAGS" Collapsed="true">
+    <Position X="11.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>libyara\Enums\YR_SCAN_FLAGS.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="dnYara.Interop.META_TYPE" Collapsed="true">
+    <Position X="3" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAEAAQAAAIAAAAAAA=</HashCode>
+      <FileName>libyara\Types\Types.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="dnYara.Interop.YARA_ERROR" Collapsed="true">
+    <Position X="4.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iMgAxECSDCUMIIAp4AAAwAAgQSAgBkAjIBIQAEwEBJE=</HashCode>
+      <FileName>libyara\Types\YARA_ERROR.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="dnYara.Interop.YR_CONFIG_NAME" Collapsed="true">
+    <Position X="10" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAIAAg=</HashCode>
+      <FileName>libyara\Types\YR_CONFIG_NAME.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="dnYara.Interop.YaraScanCallback" Collapsed="true">
+    <Position X="3" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Delegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="dnYara.Interop.YR_COMPILER_CALLBACK_FUNC" Collapsed="true">
+    <Position X="8.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACABAAAAABAAAAAAAAAAAAAEAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\Types.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="dnYara.Interop.YR_COMPILER_INCLUDE_CALLBACK_FUNC" Collapsed="true">
+    <Position X="10" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\Types.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="dnYara.Interop.YR_COMPILER_INCLUDE_FREE_FUNC" Collapsed="true">
+    <Position X="11.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\Types.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="dnYara.Interop.YR_COMPILER_RE_AST_CALLBACK_FUNC" Collapsed="true">
+    <Position X="13.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAIAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\Types.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="dnYara.Interop.YR_CALLBACK_FUNC" Collapsed="true">
+    <Position X="6.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\Types.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="dnYara.Interop.YR_ATOMS_QUALITY_FUNC" Collapsed="true">
+    <Position X="4.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAA=</HashCode>
+      <FileName>libyara\Types\Types.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
